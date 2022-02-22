@@ -1,0 +1,20 @@
+/* Small CSS Classes */
+
+.dd-none{display: none;}
+
+.comment-image-wrapper{
+    width:100%;
+    float:left;
+}
+
+.comment-image-wrapper img{
+    width: 70%;
+    float: right;
+}
+
+.comment-image-wrapper span{
+    position:absolute; 
+    right: 0;
+}
+
+.cursor-pointer-finger{cursor: pointer;}

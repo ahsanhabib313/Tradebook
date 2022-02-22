@@ -1,0 +1,8 @@
+vendor
+.idea
+.env
+<<<<<<< HEAD
+public/uploads
+=======
+public/uploads/
+>>>>>>> development

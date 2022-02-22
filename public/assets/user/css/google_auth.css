@@ -1,0 +1,105 @@
+
+.clr{ clear: both; }
+h1{text-align: center;}
+#container{max-width: 850px; margin: 0 auto}
+#login,#signup,#device{width: 300px; border: 1px solid #d6d7da; padding: 0px 15px 15px 15px; border-radius: 5px;font-family: arial; line-height: 16px;color: #333333; font-size: 14px; background: #ffffff;rgba(200,200,200,0.7) 0 4px 10px -1px}
+#login{float: left;}
+#signup{float:right;}
+#device{margin: 0 auto;}
+#img{text-align: center;}
+#bg{
+	background: #F9F9F9;
+}
+h4{color:#000}
+#dcform label{font-weight: bold; display: block;margin-bottom: 5px;width: 100%;}
+#dcform input[type="text"]{display: block;margin-bottom: 5px;width: 100%; max-width: 278px;}
+#dcform input[type="text"]{ border: solid 1px #666666;padding: 10px;border: solid 1px #BDC7D8; margin-bottom: 20px}
+.button {
+    background-color: #5fcf80 !important;
+	font-weight: bold;
+	padding: 12px 15px;
+	width: 100%;
+	color: #ffffff;
+	border: 1px #36b672 solid;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+.errorMsg{color: #cc0000;margin-bottom: 10px}
+.app{width: 178px;}
+
+#step { padding: 25px; margin: 0 auto; }
+#step li div{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#step li{
+	list-style: none;
+	position: relative;
+	padding-left: 30px;
+	padding-right: 0 !important;
+	border-left: 1px #a5a5a5 solid;
+}
+#step li:last-child{
+	border-bottom: 1px #a5a5a5 solid;
+	height: 18rem;
+}
+.staper {
+	position: absolute;
+    padding: 5px 12px;
+    display: inline-block;
+    background: #F9F9F9;
+    border: 2px #3A91DC solid;
+    border-radius: 50%;
+    color: #3A91DC;
+    font-weight: bold;
+    left: -18px;
+    top: 0;
+}
+
+.table {
+	display: table;
+}
+.cell { display: table-cell; width: 100%; }
+
+.key_in {
+	width: 100%;
+	height: 36px;
+	border: 1px #ddd solid;
+	padding-left: 8px;
+	font-size: 17px;
+}
+
+#qrcode{
+	position: absolute;
+}
+
+.img_icon {
+    margin: -6px 0px;
+    background: #4397DA;
+    height: 36px;
+    padding: 6px 12px;
+}
+
+.code_in {
+    position: absolute;
+    width: 100%;
+    max-width: 400px;
+    right: 0;
+    bottom: -16px;
+}
+
+.dapp img{ width: 100%; }
+.dapp a{ float: left; display: inline-block; width: 45%; }
+.dapp a:last-child{ float: right !important; }
+.dicon {
+	position: absolute;
+	right: 0;
+	top: 5px;;
+}
+
+@media screen and (max-width: 1100px) {
+	#qrcode{ position: relative; }
+	.code_in { position: relative; }
+	#step li:last-child { height: auto; }
+	#step { margin: 0 auto 40px; }
+}
